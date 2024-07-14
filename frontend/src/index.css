@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  min-width: 0;
+}
+
+input::-webkit-datetime-edit, input::-webkit-date-edit, input::-webkit-time-edit{
+  min-width: 100%;
+  width: 100%;
+}
