@@ -1,4 +1,4 @@
-FROM golang:1.22.5
+FROM golang:1.22.4-alpine
 
 WORKDIR /journey
 
@@ -14,3 +14,6 @@ RUN go build -o /journey/bin/journey .
 
 EXPOSE 8080
 ENTRYPOINT [ "/journey/bin/journey" ]
+
+
+
